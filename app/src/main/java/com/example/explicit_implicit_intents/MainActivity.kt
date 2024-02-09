@@ -23,7 +23,6 @@ class MainActivity : AppCompatActivity() {
             val intent= Intent(Intent.ACTION_VIEW)
             intent.data= Uri.parse("https://harimohanrai.wordpress.com/")
             startActivity(intent)
-
         }
         val btnexplicit2= findViewById<Button>(R.id.button4)
         btnexplicit2.setOnClickListener {
